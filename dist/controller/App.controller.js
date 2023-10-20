@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast","sap/ui/model/json/JSONModel","sap/ui/model/resource/ResourceModel"],function(e,o,t,s){"use strict";return e.extend("sap.ui.demo.walkthrough.App",{onShowHello:function(){var e=this.getView().getModel("i18n").getResourceBundle();var t=this.getView().getModel().getProperty("/recipient/name");var s=e.getText("helloMsg",[t]);o.show(s)}})});
+//# sourceMappingURL=App.controller.js.map

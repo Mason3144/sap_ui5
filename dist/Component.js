@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/model/json/JSONModel","sap/ui/model/resource/ResourceModel"],function(e,o,i){"use strict";return e.extend("sap.ui.walkthrough.component",{metadata:{rootView:{viewName:"sap.ui.demo.walkthrough.view.App",type:"XML",async:true,id:"app"}},init:function(){e.prototype.init.apply(this,arguments);var t={recipient:{name:"UI5"}};var a=new o(t);this.setModel(a);var n=new i({bundleName:"sap.ui.demo.walkthrough.i18n.i18n",supportedLocales:[""],fallbackLocale:""});this.setModel(n,"i18n")}})});
+//# sourceMappingURL=Component.js.map
